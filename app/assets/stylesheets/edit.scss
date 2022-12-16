@@ -4,26 +4,28 @@
   box-sizing: border-box;
 }
 
-.item-wrapper {
-  margin: 30px 0 30px 50px;
+.edit {
+  margin: 30px 0 0 20px;
 }
 
 .item {
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
 }
 
-.item1 {
-  margin-bottom: 30px;
+.item2 {
+  margin-bottom: 20px;
 }
 
-.link-wrapper {
-  margin-left: 30px;
+.link {
+  margin-top: 20px;
   display: flex;
 }
 
 .link1 {
   padding-right: 10px;
-  border-right: 1px solid black;
+  border-right: 1px solid block;
 }
 
 .link2 {
