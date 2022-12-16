@@ -1,15 +1,18 @@
-<div class="show">
+<div class="index">
   <h2>Books</h2>
   <ul>
     <li>Title</li>
     <li>Body</li>
   </ul>
-  <div class="show-wrapper">
-    <div class="show-box">
+  <div class="index-wrapper">
+    <div class="index-box">
       <% @books.each do |book| %>
-        <div class=""></div>
+        <div class="title">
           <span><%= book.title %></span>
+        </div>
+        <div class="body">
           <span><%= book.body %></span>
+        </div>
         <div class="link">
           <%= link_to "Show", book_path(@books) %>
         </div>

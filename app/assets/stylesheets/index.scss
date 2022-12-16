@@ -4,28 +4,40 @@
   box-sizing: border-box;
 }
 
-.show-wrapper {
+.index-wrapper {
   display: flex;
-  fles-direction: column;
+  flex-direction: column;
 }
 
-.show-box {
+.index-box {
   display: flex;
   margin: 20px 0 0 30px;
 }
 
-.show h2 {
+.index h2 {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.show ul {
+.index ul {
   display: flex;
 }
 
-.show li {
+.index li {
   margin: 20px 0 0 50px;
   list-style: none;
+}
+
+.title {
+  margin: 10px;
+}
+
+.body {
+  margin: 10px;
+}
+
+.link {
+  margin-right: 10px;
 }
 
 .new h2 {
