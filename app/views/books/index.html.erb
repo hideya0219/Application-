@@ -1,15 +1,18 @@
 <div class="show">
   <h2>Books</h2>
+  <ul>
+    <li>Title</li>
+    <li>Body</li>
+  </ul>
+  <div class="show-box">
+    <% @books.each do |book| %>
+      <span><%= book.title %></span>
+    <% end %>
 
-  <p>Title</p>
-  <% @books.each do |book| %>
-    <span><%= book.title %></span>
-  <% end %>
-
-  <p>Body</p>
-  <% @books.each do |book| %>
-    <span><%= book.body %></span>
-  <% end %>
+    <% @books.each do |book| %>
+      <span><%= book.body %></span>
+    <% end %>
+  </div>
 </div>
 
 <div class="new">
