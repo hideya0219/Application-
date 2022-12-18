@@ -14,13 +14,13 @@
           <span><%= book.body %></span>
         </div>
         <div class="link">
-          <%= link_to "Show", book_path(@books) %>
+          <%= link_to "Show", book_path(book) %>
         </div>
         <div class="link">
-           <%= link_to "Edit", edit_book_path(@books) %>
+           <%= link_to "Edit", edit_book_path(book) %>
         </div>
         <div class="link">
-          <%= link_to "Destroy", book_path(@books), method: :delete, "data-confirm" => "Are you sure？" %>
+          <%= link_to "Destroy", book_path(book), method: :delete, "data-confirm" => "Are you sure？" %>
         </div>
       <% end %>
     </div>
