@@ -31,3 +31,22 @@
 .link2 {
   margin-left: 10px;
 }
+
+.error-message-wrapper {
+  margin-left: 30px;
+  width: 600px;
+}
+
+.error-count-wrapper {
+  background-color: red;
+}
+
+.error-count {
+  padding: 5px 0 5px 20px;
+  color: white;
+}
+
+.error-list {
+  padding: 40px 0 40px 80px;
+  border: 2px solid red;
+}
